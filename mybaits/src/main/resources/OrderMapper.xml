@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="orders">
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into orders(orderno,price,cid) values(#{orderno},#{price},#{user.id})
+    </insert>
+
+    <select id="selectOne" resultMap="rmOrder">
+      select
+        o.id oid , o.orderno oorderno,o.price oprice, u.id uid , u.name uname ,u.age uage
+      from orders o
+        left outer join users u on o.cid = u.id
+      where
+        o.id = #{id}
+    </select>
+    <resultMap id="rmOrder" type="_Order">
+        <id column="oid" property="id"/>
+        <result column="oorderno" property="orderno" />
+        <result column="oprice" property="price" />
+
+        <association property="user" javaType="_User" >
+            <id column="uid" property="id"/>
+            <result column="uname" property="name" />
+            <result column="uage" property="age" />
+        </association>
+    </resultMap>
+
+
+    <select id="selectOne2" resultMap="rmOrder2">
+       select o.id oid,o.orderno,o.price oprice,u.id uid,u.name uname, u.age uage,u.age uage,i.id iid ,i.iname iiname
+       from orders o
+          left outer join users u on o.cid =u.id
+          left outer join items i on i.oid=o.id
+        where oid=#{id}
+    </select>
+    <resultMap  id="rmOrder2" type="_Order">
+        <id column="oid" property="id"/>
+        <result column="oorderno" property="orderno"/>
+        <result column="oprice" property="price"/>
+
+        <association property="user" javaType="_User" column="uid">
+            <id column="uid" property="id"/>
+            <result column="uname" property="name"/>
+            <result column="uage" property="age"/>
+        </association>
+        <collection property="items" ofType="_Item" column="oid">
+            <id column="iid" property="id"/>
+            <result column="iiname" property="iname"/>
+        </collection>
+    </resultMap>
+</mapper>

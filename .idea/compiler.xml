@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Do" />
+        <module name="helloworld" />
+        <module name="music164-log-dataETL" />
+        <module name="myavro" />
+        <module name="mybaits" />
+        <module name="myflume" />
+        <module name="myhadoop" />
+        <module name="myhadoop2" />
+        <module name="myhbase" />
+        <module name="myhive" />
+        <module name="mykafka" />
+        <module name="myzk2" />
+        <module name="qq" />
+        <module name="qqproject" />
+        <module name="spring" />
+        <module name="springmvc" />
+        <module name="wangyi163-2" />
+        <module name="xu01" />
+        <module name="xu02" />
+        <module name="xu03" />
+        <module name="xu04" />
+        <module name="xu06" />
+        <module name="xu07" />
+        <module name="xu08" />
+        <module name="Zk" />
+        <module name="网易" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="big12" target="1.5" />
+      <module name="Do" target="1.5" />
+      <module name="helloworld" target="1.5" />
+      <module name="music164-log-dataETL" target="1.5" />
+      <module name="music164-log-genLog" target="7" />
+      <module name="myavro" target="6" />
+      <module name="mybaits" target="1.5" />
+      <module name="myflume" target="1.5" />
+      <module name="myhadoop" target="1.5" />
+      <module name="myhadoop2" target="1.5" />
+      <module name="myhbase" target="1.5" />
+      <module name="myhive" target="1.5" />
+      <module name="mykafka" target="1.5" />
+      <module name="myzk2" target="1.5" />
+      <module name="qq" target="1.5" />
+      <module name="qqproject" target="7" />
+      <module name="spring" target="1.5" />
+      <module name="springmvc" target="1.5" />
+      <module name="wangyi163-2" target="1.5" />
+      <module name="wangyimusic3" target="1.5" />
+      <module name="xu01" target="1.5" />
+      <module name="xu02" target="1.5" />
+      <module name="xu03" target="1.5" />
+      <module name="xu04" target="7" />
+      <module name="xu05" target="7" />
+      <module name="xu06" target="1.5" />
+      <module name="xu07" target="7" />
+      <module name="xu08" target="6" />
+      <module name="Zk" target="1.5" />
+      <module name="网易" target="7" />
+      <module name="网易云音乐" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

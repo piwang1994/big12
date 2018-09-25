@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="items">
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        insert into items(id ,iname,oid) values (#{id},#{iname},#{order.id})
+    </insert>
+
+    <select id="selectOne" resultMap="res">
+        select i.id iid,i.iname iiname,o.id oid ,o.price oprice,u.id uid , u.name uname, u.age uage
+         from items i left outer join orders o on o.id=i.oid
+         join users u on o.cid=u.id where i.id=#{id};
+    </select>
+
+    <resultMap id="res" type="_Item">
+        <id property="id" column="iid"/>
+        <result property="iname" column="iiname"/>
+            <association property="order" column="id" javaType="_order">
+                <id property="id" column="oid"/>
+            <association property="user" column="id" javaType="_User">
+             <id property="id" column="uid"/>
+                <result property="name" column="uname"/>
+                <result property="age" column="uage"/>
+            </association>
+        </association>
+
+    </resultMap>
+
+</mapper>
+
+
+

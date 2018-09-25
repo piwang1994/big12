@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Do/Do.iml" filepath="$PROJECT_DIR$/Do/Do.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zk/Zk.iml" filepath="$PROJECT_DIR$/Zk/Zk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/big12.iml" filepath="$PROJECT_DIR$/big12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloworld/helloworld.iml" filepath="$PROJECT_DIR$/helloworld/helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/music164-log-dataETL/music164-log-dataETL.iml" filepath="$PROJECT_DIR$/music164-log-dataETL/music164-log-dataETL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myavro/myavro.iml" filepath="$PROJECT_DIR$/myavro/myavro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybaits/mybaits.iml" filepath="$PROJECT_DIR$/mybaits/mybaits.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myflume/myflume.iml" filepath="$PROJECT_DIR$/myflume/myflume.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myhadoop/myhadoop.iml" filepath="$PROJECT_DIR$/myhadoop/myhadoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myhadoop2/myhadoop2.iml" filepath="$PROJECT_DIR$/myhadoop2/myhadoop2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myhbase/myhbase.iml" filepath="$PROJECT_DIR$/myhbase/myhbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myhive/myhive.iml" filepath="$PROJECT_DIR$/myhive/myhive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mykafka/mykafka.iml" filepath="$PROJECT_DIR$/mykafka/mykafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myzk2/myzk2.iml" filepath="$PROJECT_DIR$/myzk2/myzk2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qq/qq.iml" filepath="$PROJECT_DIR$/qq/qq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qqproject/qqproject.iml" filepath="$PROJECT_DIR$/qqproject/qqproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc/springmvc.iml" filepath="$PROJECT_DIR$/springmvc/springmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/网易云音乐2/wangyi163-2.iml" filepath="$PROJECT_DIR$/网易云音乐2/wangyi163-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xu01/xu01.iml" filepath="$PROJECT_DIR$/xu01/xu01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xu02/xu02.iml" filepath="$PROJECT_DIR$/xu02/xu02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xu03/xu03.iml" filepath="$PROJECT_DIR$/xu03/xu03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xu04/xu04.iml" filepath="$PROJECT_DIR$/xu04/xu04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xu06/xu06.iml" filepath="$PROJECT_DIR$/xu06/xu06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xu07/xu07.iml" filepath="$PROJECT_DIR$/xu07/xu07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xu08/xu08.iml" filepath="$PROJECT_DIR$/xu08/xu08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/网易/网易.iml" filepath="$PROJECT_DIR$/网易/网易.iml" />
+    </modules>
+  </component>
+</project>

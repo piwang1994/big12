@@ -1,0 +1,107 @@
+[appversion]
+1.0.0
+1.1.0
+1.2.0
+2.0.0
+[appchannel]
+umeng
+appstore
+anroid bus
+[appplatform]
+ios
+android
+winphone
+blackberry
+[country]
+china
+america
+[province]
+henan
+hebei
+guangdong
+guangxi
+shandong
+shanxi
+jiazhou
+[network]
+wifi
+cell
+3g
+4g
+[carrier]
+中国移动
+中国联通
+中国电信
+中国铁通
+[devicestyle]
+iphone 6
+iphone 7
+红米
+oppo 1
+vivo 3
+[screensize]
+1136 * 640
+960 * 640
+480 * 320
+[ostype]
+8.3
+7.1.1
+1.4.0
+1.2.0
+11.0
+[brand]
+三星
+华为
+Apple
+魅族
+小米
+联想
+[eventid]
+share
+favourite
+play
+listen
+skip
+black
+null
+[errorbrief]
+at cn.lift.dfdf.web.AbstractBaseController.validInbound(AbstractBaseController.java:72)
+at cn.lift.appIn.control.CommandUtil.getInfo(CommandUtil.java:67)
+[errordetail]
+java.lang.NullPointerException at cn.lift.appIn.web.AbstractBaseController.validInbound(AbstractBaseController.java:72) at cn.lift.dfdf.web.AbstractBaseController.validInbound
+at cn.lift.dfdfdf.control.CommandUtil.getInfo(CommandUtil.java:67) at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) at java.lang.reflect.Method.invoke(Method.java:606)
+[pageid]
+list.html
+main.html
+test.html
+[visitindex]
+0
+1
+2
+3
+4
+[nextpage]
+list.html
+main.html
+test.html
+[singleusedurationsecs]
+45
+2
+78
+123
+456
+234
+[singleuploadtraffic]
+4
+128
+33
+459
+34
+35
+[singledownloadtraffic]
+4
+12800
+3300
+45900
+3400
+35

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- value标签需要写本机ip -->
+<configuration>
+    <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://192.168.154.201</value>
+    </property>
+    <property>
+        <name>hadoop.tmp.dir</name>
+        <value>/home/centos/hadoop</value>
+    </property>
+</configuration>
